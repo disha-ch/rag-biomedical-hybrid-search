@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+.pytest_cache/
+
+# Local datasets / generated outputs
+data/raw/*
+data/processed/*
+artifacts/*
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!artifacts/.gitkeep
