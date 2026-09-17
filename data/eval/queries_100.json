@@ -1,0 +1,1598 @@
+[
+  {
+    "question_id": 934,
+    "question": "What are the treatments of choice for GIST (gastrointestinal stromal tumor)?",
+    "answer": "The surgical resection is a treatment of choice for gastrointestinal stromal tumors. It has been shown that adequate surgical resection correlates with high 5-years survival rates for patients with gastric GIST.  When they are localized, the treatment of choice is surgical excision, but advanced tumors have a limited response to chemo or radiotherapy. Imatinib (STI571 or Glivec) is a selective inhibitor or tyrosine kinase proteins that has been used successfully in the treatment of advanced GIST.  ",
+    "relevant_passage_ids": [
+      17229322,
+      16821517,
+      16857109,
+      16136600,
+      12394270,
+      19097381,
+      17954092,
+      16437936,
+      18082353,
+      15655606,
+      14753595,
+      15672765,
+      19343179,
+      17643218,
+      11126742,
+      16566359,
+      15993051,
+      17470686,
+      15221987,
+      15508453,
+      15245670,
+      18180842,
+      19829995,
+      18958964,
+      16739060,
+      24325620,
+      22678007
+    ]
+  },
+  {
+    "question_id": 209,
+    "question": "Which enzyme does MLN4924 inhibit?",
+    "answer": "MLN4924 is  an investigational small molecule inhibitor of NEDD8-activating enzyme (NAE).",
+    "relevant_passage_ids": [
+      25388161,
+      23986575,
+      22012946,
+      21873567,
+      20129059,
+      24525735,
+      22246439,
+      21994410,
+      22951983,
+      21677879,
+      24672057,
+      22439935,
+      25615422,
+      22874562,
+      24213570,
+      22927439,
+      19360080,
+      23624319,
+      20142034,
+      21463634,
+      21969368,
+      22832224,
+      21159650,
+      20525923,
+      21914854,
+      24634471,
+      24155378,
+      23527154,
+      22072567,
+      21417215
+    ]
+  },
+  {
+    "question_id": 2320,
+    "question": "Which topoisomerase is essential in yeast?",
+    "answer": "Eukaryotic DNA topoisomerase II is an abundant nuclear enzyme that is essential for cell proliferation. Yeast DNA topoisomerase II is encoded by a single-copy, essential gene.",
+    "relevant_passage_ids": [
+      18570880,
+      21767457,
+      16651657,
+      6090122,
+      2842762,
+      6323017,
+      2840207,
+      23935120,
+      12888496,
+      1316274,
+      7932731,
+      1332607
+    ]
+  },
+  {
+    "question_id": 2060,
+    "question": "Do brown fat cells produce heat?",
+    "answer": "Yes, brown fat cells produce heat.",
+    "relevant_passage_ids": [
+      26496384,
+      1550210,
+      15058310,
+      25466254,
+      23834768,
+      5262992,
+      19641492,
+      21982742,
+      26912151,
+      8042786,
+      24046370,
+      27528872,
+      9277366,
+      16594742,
+      25068090,
+      24129212,
+      6315457,
+      21196229,
+      541897,
+      26749900,
+      962510,
+      27552974,
+      25642708,
+      6819159,
+      26322018,
+      26910308,
+      6148836,
+      21123942,
+      2039657,
+      3083882,
+      24567786,
+      22796012,
+      22654830,
+      23818608,
+      27528697
+    ]
+  },
+  {
+    "question_id": 1873,
+    "question": "Describe the applicability of Semantic MediaWiki in the case of FANTOM5",
+    "answer": "To make the heterogeneous data set accessible and useful for investigators, a web-based database called Semantic catalog of Samples, Transcription initiation And Regulators (SSTAR) has been developed. SSTAR utilizes the open source wiki software MediaWiki along with the Semantic MediaWiki (SMW) extension, which provides flexibility to model, store, and display a series of data sets produced during the course of the FANTOM5 project. The use of SMW demonstrates the utility of the framework for dissemination of large-scale analysis results. SSTAR is a case study in handling biological data generated from a large-scale research project in terms of maintenance and growth alongside research activities",
+    "relevant_passage_ids": [
+      27402679
+    ]
+  },
+  {
+    "question_id": 1172,
+    "question": "Which is the chromosomal location of the gene MAOA?",
+    "answer": "The MAOA gene is locatad on chromosome X (Xp21-p11).",
+    "relevant_passage_ids": [
+      2906043
+    ]
+  },
+  {
+    "question_id": 858,
+    "question": "What is the biological role of SERCA2 SUMOylation in cardiac physiology and pathophysiology, such as in heart failure?",
+    "answer": "Recently, the impact of small ubiquitin-related modifier 1 (SUMO-1) on the regulation and preservation of sarcoplasmic reticulum calcium adenosine triphosphatase (SERCA2a) function was discovered. The small ubiquitin-related modifier (SUMO) can be conjugated to lysine residues of target proteins, and is involved in many cellular processes. SERCA2a is SUMOylated at lysines 480 and 585 and this SUMOylation is essential for preserving SERCA2a ATPase activity and stability in mouse and human cells. The levels of SUMO1 and the SUMOylation of SERCA2a itself were greatly reduced in failing hearts. SUMO-1 gene transfer improved cardiac function supporting the critical role of SUMO-1 in SERCA2a function and underlining the therapeutic potential of SUMO-1 for HF patients.",
+    "relevant_passage_ids": [
+      23710633,
+      24225946,
+      22679139,
+      21900893
+    ]
+  },
+  {
+    "question_id": 730,
+    "question": "Which is the cellular target of gefitinib?",
+    "answer": "The specific cellular target of Gefitinib (Iressa) is the epidermal growth factor receptor (EGFR).",
+    "relevant_passage_ids": [
+      23255952,
+      19276163,
+      18089711
+    ]
+  },
+  {
+    "question_id": 3673,
+    "question": "What cellular process is the protein clathrin involved in?",
+    "answer": "Clathrin is a central regulator of endocytosis in all eukaryotes that plays a role in bacterial and plastid differentiation",
+    "relevant_passage_ids": [
+      29035746,
+      19793827,
+      28814502,
+      6310570,
+      27028652,
+      29511054,
+      26206992,
+      23384308,
+      28117435,
+      2475643,
+      6888541
+    ]
+  },
+  {
+    "question_id": 265,
+    "question": "What are the effects of BMAL1 deficiency?",
+    "answer": "BMAL1 deficiency is associated with premature aging and reduced lifespan and BMAL1 deficiency leads to development of stress induced senescence in vivo. Down-regulation of Bmal1 also accelerates the development of tumours, adipogenesis.",
+    "relevant_passage_ids": [
+      24481314,
+      21149897,
+      20576619,
+      22611086,
+      22101268,
+      20519775
+    ]
+  },
+  {
+    "question_id": 249,
+    "question": "Does burning mouth syndrome preferentially affect post-mepopausal women?",
+    "answer": "BMS is observed principally in middle-aged patients and postmenopausal women \nBMS mostly affects elderly citizens, especially postmenopausal women with prevalence up to 12-18%.",
+    "relevant_passage_ids": [
+      7838464,
+      6589575,
+      9844361,
+      17541900,
+      21685517,
+      16142094,
+      15055637,
+      17452954,
+      9237148,
+      18305436,
+      3476895,
+      18278306,
+      8469539,
+      21418666,
+      23772971,
+      18985004,
+      12618668,
+      12907696,
+      7629360,
+      11441716,
+      10431669,
+      12764983,
+      21528120,
+      20230455,
+      20440632,
+      23050296,
+      21903545,
+      20597947,
+      11871678,
+      10446526,
+      22030140,
+      15195716,
+      16905808,
+      19450321,
+      18625105,
+      8725589,
+      8170453,
+      22612823,
+      23201368,
+      2700889,
+      19689438,
+      17439072,
+      20038880,
+      17967714,
+      20701667,
+      19658340,
+      18558051,
+      24096230,
+      15024358,
+      16637799,
+      12017897,
+      11603307,
+      17849966,
+      10478959,
+      23787507,
+      15911160
+    ]
+  },
+  {
+    "question_id": 786,
+    "question": "List available biomedical question answering systems.",
+    "answer": "We live in an age of access to more information than ever before. The exponential growth in the volume of publications in the biomedical domain has made it impossible for an individual to keep pace with the advances. Thus, there is a need for intelligent information retrieval systems that can summarize relevant and reliable textual sources to satisfy a user's query. Question answering is a specialized type of information retrieval with the aim of returning precise short answers to queries posed as natural language questions. This accentuates the need for fast and accurate biomedical question answering systems. In this paper we introduce INDOC -- a biomedical question answering system based on novel ideas of indexing and extracting the answer to the questions posed. Increased access to information allows for more informed and empowered researchers, while information overload becomes an increasingly serious risk. INDOC displays the results in clusters to help the user arrive the most relevant set of documents quickly. Evaluation was done against the standard OHSUMED test collection. We present a review and comparison of three biomedical question answering systems: askHERMES, EAGLi ( http://eagl.unige.ch/EAGLi/ ), and HONQA ( http://services.hon.ch/cgi-bin/QA10/qa.pl ). ",
+    "relevant_passage_ids": [
+      23244628,
+      18274647,
+      17990503
+    ]
+  },
+  {
+    "question_id": 1835,
+    "question": "Do statins cause diabetes?",
+    "answer": "The relationship between T2DM and statins is further complicated since these drugs can cause new onset diabetes (NOD) although there is an overall benefit in terms of preventing vascular events.",
+    "relevant_passage_ids": [
+      24404512,
+      25939296,
+      24874977,
+      25312577,
+      27652354,
+      22845189,
+      25245638,
+      22658337,
+      26806344,
+      26437128,
+      17496714,
+      23704171,
+      26466221,
+      23496027,
+      24373206,
+      25208056,
+      26597211
+    ]
+  },
+  {
+    "question_id": 1957,
+    "question": "What is the applicability of the MCAST algorithm?",
+    "answer": "The MCAST algorithm uses a hidden Markov model with a P-value-based scoring scheme to identify candidate CRMs.",
+    "relevant_passage_ids": [
+      26704599,
+      16253142,
+      14534166
+    ]
+  },
+  {
+    "question_id": 4438,
+    "question": "What does temsirolimus inhibit?",
+    "answer": "Temsirolimus is a mTOR inhibitor",
+    "relevant_passage_ids": [
+      34804848,
+      34565342,
+      31331862,
+      34589671
+    ]
+  },
+  {
+    "question_id": 222,
+    "question": "Is there any association between Jarid2 and miR-155 in Th17 cells?",
+    "answer": "Yes. Activation-induced miR-155 targets the chromatin protein Jarid2 to regulate proinflammatory cytokine production in T helper 17 cells.",
+    "relevant_passage_ids": [
+      24856900,
+      24950205
+    ]
+  },
+  {
+    "question_id": 1668,
+    "question": "What is the advantage of neutral loss detection in phosphoproteomics?",
+    "answer": "The localization of phosphorylation sites in peptide sequences is a challenging problem in large-scale phosphoproteomics analysis. The intense neutral loss peaks and the coexistence of multiple serine/threonine and/or tyrosine residues are limiting factors for objectively scoring site patterns across thousands of peptides.\nCID of phosphopeptides typically results in spectra dominated by a neutral loss of the phosphate group  allowing detection and sequencing of phosphopeptides.",
+    "relevant_passage_ids": [
+      15665377,
+      19056867,
+      18785766,
+      19241031,
+      21033674,
+      16641100,
+      22844594,
+      21455477,
+      21526838,
+      23918812,
+      19504542
+    ]
+  },
+  {
+    "question_id": 3653,
+    "question": "What are Drosophila's balancer chromosomes?",
+    "answer": "genetic reagents",
+    "relevant_passage_ids": [
+      26903656,
+      28581074,
+      10431243,
+      3146524
+    ]
+  },
+  {
+    "question_id": 1850,
+    "question": "Describe Wellens' Syndrome.",
+    "answer": "Wellens Syndrome (WS) is a condition characterized by typical changes in ECG, which are biphasic T-wave inversions (less common) or symmetric and deeply inverted T waves (including 75%) in lead V2-V3 chest derivations.",
+    "relevant_passage_ids": [
+      26432739,
+      12442245,
+      18649894,
+      25954534,
+      16380872,
+      14708424,
+      21267975,
+      17720261,
+      21699846,
+      21106319,
+      25161778,
+      27951539,
+      27041816,
+      2357882,
+      23420731,
+      27609724,
+      27473406,
+      18394847
+    ]
+  },
+  {
+    "question_id": 3922,
+    "question": "Which protein is involved in the organization and regulation of pluripotency-associated three-dimensional enhancer networks?",
+    "answer": "KLF4 is involved in the organization and regulation of pluripotency-associated three-dimensional enhancer networks.",
+    "relevant_passage_ids": [
+      31548608
+    ]
+  },
+  {
+    "question_id": 2348,
+    "question": "Which two genes are implicated in Juvenile polyposis syndrome?",
+    "answer": "Juvenile polyposis syndrome (JPS) is a rare autosomal dominant disorder predisposing to gastrointestinal hamartomatous polyps and cancer with a pathogenic SMAD4 or BMPR1A germline mutation being identified in about 40-50% of patients.",
+    "relevant_passage_ids": [
+      28428902,
+      27375208,
+      25389115,
+      22810475,
+      25129392,
+      25846706,
+      22171123,
+      25931195,
+      25097590,
+      26159157,
+      21465659,
+      26171675,
+      26122142,
+      17873119
+    ]
+  },
+  {
+    "question_id": 54,
+    "question": "Which DNA sequences are more prone for the formation of R-loops?",
+    "answer": "R-loops, transcriptionally-induced RNA:DNA hybrids, occurring at repeat tracts (CTG)n, (CAG)n, (CGG)n, (CCG)n and (GAA)n, are associated with diseases including myotonic dystrophy, Huntington's disease, fragile X and Friedreich's ataxia.  Physiological R-loop formation at CpG island promoters can contribute to DNA replication origin specification at these regions, the most efficient replication initiation sites in mammalian cells. R-loops may also possess beneficial effects, as their widespread formation has been detected over CpG island promoters in human genes. R-loops are particularly enriched over G-rich terminator elements.",
+    "relevant_passage_ids": [
+      20080737,
+      16793409,
+      24787137,
+      25147206,
+      24843019,
+      15531884,
+      18986989,
+      22464440,
+      24743386,
+      25972891,
+      25296254
+    ]
+  },
+  {
+    "question_id": 1340,
+    "question": "Are there enhancer RNAs (eRNAs)?",
+    "answer": "Yes. Active enhancers are transcribed, producing a class of noncoding RNAs called enhancer RNAs (eRNAs). eRNAs are distinct from long noncoding RNAs (lncRNAs), but these two species of noncoding RNAs may share a similar role in the activation of mRNA transcription.",
+    "relevant_passage_ids": [
+      24135681,
+      24525859,
+      24480293,
+      25404134,
+      25263592,
+      25810254,
+      23728302,
+      24674738,
+      25561718,
+      20393465,
+      23877407
+    ]
+  },
+  {
+    "question_id": 3679,
+    "question": "List 3 NK3R antagonists.",
+    "answer": "NK3 receptor antagonists include MLE4901 (also known as AZD4901), SB222200 and ESN364.",
+    "relevant_passage_ids": [
+      28977601,
+      27636018,
+      26653113,
+      28380486
+    ]
+  },
+  {
+    "question_id": 2907,
+    "question": "What is the mechanism of action of durvalumab?",
+    "answer": "Durvalumab is a selective, high-affinity, human IgG1 monoclonal antibody that blocks PD-L1, which binds to PD-1 and CD80, but not to PD-L2. It is Immune checkpoint inhibitor used of treating advanced cancer patients, principally antibodies against CTLA-4 and PD-1 or PD-L1.",
+    "relevant_passage_ids": [
+      28705024,
+      29545095,
+      28960263,
+      29140105,
+      26858122,
+      30013326,
+      29773326,
+      29486607,
+      29517083,
+      28643244,
+      28471727,
+      30489337,
+      28717238,
+      28831813,
+      28403786,
+      27265743,
+      30383184,
+      29958099,
+      30514390,
+      29258079,
+      29069302,
+      28885881,
+      29416316
+    ]
+  },
+  {
+    "question_id": 2346,
+    "question": "What are the 4 cardinal signs of inflammation according to Celsus?",
+    "answer": "redness or rubor , heat or calor, swelling or tumor, and pain or dolor",
+    "relevant_passage_ids": [
+      9120866,
+      29135930,
+      28282278,
+      12799851,
+      12776909,
+      28002223,
+      23931059,
+      7734328,
+      23583354,
+      15041917,
+      10867774
+    ]
+  },
+  {
+    "question_id": 1304,
+    "question": "List common features of Shapiro syndrome",
+    "answer": "Shapiro syndrome is a rare entity, comprising a triad of recurrent hypothermia, hyperhidrosis and congenital agenesis of the corpus callosum. Hypermelatoninemia has also been described in a patient with Shapiro syndrome.",
+    "relevant_passage_ids": [
+      24339619,
+      23578790,
+      19027594,
+      7565067,
+      21041995,
+      24187634
+    ]
+  },
+  {
+    "question_id": 1807,
+    "question": "Which is the chromosome area that the human gene coding for the dopamine transporter (DAT1) is located to?",
+    "answer": "The gene encoding DAT1 consists of 15 exons spanning 60 kb and is located on chromosome 5p15.3.",
+    "relevant_passage_ids": [
+      16861140,
+      19779799,
+      17579611,
+      1478653,
+      16222334
+    ]
+  },
+  {
+    "question_id": 2877,
+    "question": "Can enasidenib be used for the treatment of acute myeloid leukemia?",
+    "answer": "Yes, enasidenib has been approved for the treatment of adults with relapsed and refracctory acture myelogenous leukemia with an IDH2 mutation.",
+    "relevant_passage_ids": [
+      29770715
+    ]
+  },
+  {
+    "question_id": 856,
+    "question": "Is Dicer part of the RISC loading complex?",
+    "answer": "Yes, Dicer is part of the RISC loading complex.",
+    "relevant_passage_ids": [
+      23511973,
+      23272173,
+      23550157,
+      23226452,
+      23424633,
+      24303839
+    ]
+  },
+  {
+    "question_id": 778,
+    "question": "What is the role of mismatched uracil glycosylase (Mug) in DNA repair?",
+    "answer": "The mismatch-specific uracil DNA glycosylase (MUG) belongs to a homologous family of DNA glycosylases that initiate base-excision repair of G:U/T mismatches. The crystal structure of the Mug repair complex points to a preference of Mug for G:U over G:T mispairs. Nonetheless, Mug does not repair U:G or T:G mismatches in vivo. Mug possesses xanthine DNA glycosylase (XDG) activity in E.coli. The repair activity of Mug is more robust against xanthine than uracil. Furthermore, Mug excises the alkylated base, 3, N(4)-ethenocytosine (epsilonC) from epsilonC:G mismatches, and may be the only enzyme in E.coli that can remove this mutagenic adduct. Thus, the principal role of Mug may be the repair of DNA damages caused by exogenous chemical agents such as chloroacetaldehyde.",
+    "relevant_passage_ids": [
+      12482242,
+      21112870,
+      9489705,
+      10339434,
+      12531390,
+      12016206,
+      12184783,
+      9699633,
+      10581234,
+      15474419,
+      10521502,
+      11841206,
+      11555290,
+      20852254
+    ]
+  },
+  {
+    "question_id": 3284,
+    "question": "Do de novo truncating mutations in WASF1 cause cancer?",
+    "answer": "No, de novo heterozygous mutations in WASF1 cause a rare form of intellectual disability.",
+    "relevant_passage_ids": [
+      29961568
+    ]
+  },
+  {
+    "question_id": 811,
+    "question": "Is myasthenia gravis associated with osteoporosis?",
+    "answer": "Myasthenia gravis (MG) is a neuromuscular disease which has been associated with an increased risk of glucocorticoid-induced osteoporosis. Thymectomy can also increase risk for osteoporosis. Appropriate osteoporosis preventive measures can reduce osteoporosis risk in MG patients.",
+    "relevant_passage_ids": [
+      24935165,
+      15003307,
+      22840813,
+      15168159,
+      11328209,
+      2237235,
+      23543381,
+      25285145,
+      25122205,
+      16690366,
+      22531999
+    ]
+  },
+  {
+    "question_id": 3086,
+    "question": "List some substances important for proper nervous system function that gut microbes produce.",
+    "answer": "serotonin\ngamma-aminobutyric acid\nshort-chain fatty acids\nneurotransmitters",
+    "relevant_passage_ids": [
+      27571098,
+      29748506,
+      26598580
+    ]
+  },
+  {
+    "question_id": 2945,
+    "question": "List bacterial families for which delafloxacin has been shown to be effective.",
+    "answer": "Delafloxacin has been shown to be effective against multiple gram-positive and gram-negative bacteria, including Strepotococcus pneumoniae, Haemophilus influenzae, Moraxella atarrhalis, Staphylococcus aureus, Klebsiella pneumoniae and more.",
+    "relevant_passage_ids": [
+      27216072,
+      27458220
+    ]
+  },
+  {
+    "question_id": 2222,
+    "question": "What body parts are also known as phalanges?",
+    "answer": "The anatomical structure of each finger is comprised of four phalanges (distal, middle, proximal, and metacarpal phalange). Toes are also known as phalages",
+    "relevant_passage_ids": [
+      24486016,
+      19700363,
+      2187446,
+      16965880,
+      7366585,
+      22250842
+    ]
+  },
+  {
+    "question_id": 362,
+    "question": "Is there a package in R/bioconductor for classification of alternative splicing?",
+    "answer": "Yes. SpliceR is an R package for classification of alternative splicing and prediction of coding potential from RNA-seq data.",
+    "relevant_passage_ids": [
+      24655717
+    ]
+  },
+  {
+    "question_id": 4014,
+    "question": "List mediators that are released from mast cells?",
+    "answer": "tryptase\nhistamine\nheparin proteoglycan\nchymase\ncytokines\n2,3-dinor-11β-PGF2α\nleukotriene (LT)E4",
+    "relevant_passage_ids": [
+      31709696,
+      31722348,
+      18039527
+    ]
+  },
+  {
+    "question_id": 1048,
+    "question": "Which diseases are associated with Alu element insertion?",
+    "answer": "Diseases associated with Alu element insertion are the following: myotonic dystrophy type 2, Friedreich ataxia, spinocerebellar ataxia type 10, autosomal dominant optic atrophy, Menkes disease, hyper-IgM with immunodeficiency syndrome (HIGM), and anterior pituitary aplasia.",
+    "relevant_passage_ids": [
+      7874122,
+      15841484,
+      22723857,
+      20157369,
+      17146684,
+      17178205
+    ]
+  },
+  {
+    "question_id": 3271,
+    "question": "Salzburg EEG criteria are used to diagnose which disorder?",
+    "answer": "Salzburg EEG criteria are used to diagnose Nonconvulsive Status Epilepticus.",
+    "relevant_passage_ids": [
+      30585889,
+      29322820,
+      26092326,
+      28384518,
+      31753769,
+      27571157,
+      31318040,
+      26148985,
+      29555354
+    ]
+  },
+  {
+    "question_id": 659,
+    "question": "What is the clinical indication of cardiac T1 mapping magnetic resonance?",
+    "answer": "T1 mapping can quantitatively characterize myocardial tissue, in particular diffuse and interstitial fibrosis, edema in both overt and subclinical cardiophyopathies. However more research is required before a large-scale application for clinical decision-making can be recommended.",
+    "relevant_passage_ids": [
+      23272704,
+      25424139,
+      21974927,
+      23564562,
+      24425501,
+      24058912,
+      24036385,
+      22161952,
+      24566951,
+      23071146,
+      23549230,
+      24903343,
+      23498672,
+      23498674,
+      24931636,
+      12765114,
+      24124732,
+      24043965,
+      17896383,
+      24576837,
+      23403334,
+      22279111,
+      23845576,
+      22309452,
+      22967246,
+      23408722,
+      25310419,
+      22710483,
+      24518490,
+      24472162,
+      23349348,
+      22720998,
+      17659622,
+      23280998,
+      22903654,
+      19007595,
+      23890156,
+      23643513,
+      24011774
+    ]
+  },
+  {
+    "question_id": 2478,
+    "question": "Is there an association between Klinefelter syndrome and breast cancer?",
+    "answer": "Yes, Klinefelter syndrome is associated with increased risk of male breast cancer. Other risk factors of male breast cancer are positive family history, and mutations in BRCA1 and specially BRCA2.",
+    "relevant_passage_ids": [
+      15119010,
+      20698148,
+      23464700,
+      21204612,
+      3111653,
+      9283592,
+      16106025,
+      24552677,
+      23909038,
+      21246928,
+      20706705,
+      28675185,
+      21241366,
+      15668471,
+      7125242,
+      25415740
+    ]
+  },
+  {
+    "question_id": 3111,
+    "question": "Does Axitinib prolong survival of Pancreatic Cancer patients?",
+    "answer": "No. The addition of axitinib to gemcitabine does not improve overall survival in advanced pancreatic cancer.",
+    "relevant_passage_ids": [
+      21306953,
+      24328549,
+      25647781
+    ]
+  },
+  {
+    "question_id": 1614,
+    "question": "Describe the isolation of transcription factor complexes by in vivo biotinylation tagging and direct binding to streptavidin beads, as applied for the case of the essential hematopoietic transcription factor GATA-1.",
+    "answer": "Owing to the very high affinity of biotin for avidin and streptavidin, biotinylation tagging offers an attractive approach for the efficient purification of protein complexes. The very high affinity of the biotin/(strept)avidin system also offers the potential for the single-step capture of lower abundance protein complexes, such as transcription factor complexes. The identification of short peptide tags that are efficiently biotinylated by the bacterial BirA biotin ligase led to an approach for the single-step purification of transcription factor complexes by specific in vivo biotinylation tagging. A short sequence tag fused N-terminally to the transcription factor of interest is very efficiently biotinylated by BirA coexpressed in the same cells, as was demonstrated by the tagging of the essential hematopoietic transcription factor GATA-1. The direct binding to streptavidin of biotinylated GATA-1 in nuclear extracts resulted in the single-step capture of the tagged factor and associated proteins, which were eluted and identified by mass spectrometry. This led to the characterization of several distinct GATA-1 complexes with other transcription factors and chromatin remodeling cofactors, which are involved in activation and repression of gene targets. Thus, BirA-mediated tagging is an efficient approach for the direct capture and characterization of transcription factor complexes.",
+    "relevant_passage_ids": [
+      16339652,
+      16888367,
+      19196479,
+      15920471
+    ]
+  },
+  {
+    "question_id": 578,
+    "question": "What are the mobile applications fields of use for patients ?",
+    "answer": "Weight-loss mobile applications\npediatric obesity prevention and treatment, healthy eating, and physical activity promotion\nA total of 229 dermatology-related apps were identified in the following categories: general dermatology reference (61 [26.6%]), self-surveillance/diagnosis (41 [17.9%]), disease guide (39 [17.0%]), educational aid (20 [8.7%]), sunscreen/UV recommendation (19 [8.3%]), calculator (12 [5.2%]), teledermatology (8 [3.5%]), conference (6 [2.6%]), journal (6 [2.6%]), photograph storage/sharing (5 [2.2%]), dermoscopy (2 [0.9%]), pathology (2 [0.9%]), and other (8 [3.5%]). The most reviewed apps included Ultraviolet ~ UV Index (355 reviews), VisualDx (306), SPF (128), iSore (61), and SpotMole (50)\nmobile health and fitness app\nalcohol-use behavior change or recovery\nMore than 17,000 mHealth apps now are available for smart phones and other devices, and they do everything from monitoring urine flow for patients with enlarged prostates to reminding people prone to kidney stones to drink more water.",
+    "relevant_passage_ids": [
+      24073184,
+      23821609,
+      21591562,
+      24067948,
+      22942063,
+      24139770,
+      21689119
+    ]
+  },
+  {
+    "question_id": 382,
+    "question": "Which neuroendocrine tumors are associated with specific tumor syndromes?",
+    "answer": "Neuroendocrine tumors are a heterogeneous group of benign and malignant neoplasias, detectable in the context of hereditary tumor syndromes in up to 30% of cases. Neuroendocrine tumors include medullary thyroid carcinoma, gastroenteropancreatic tumors, pheochromocytoma, and paraganglioma.",
+    "relevant_passage_ids": [
+      21181474,
+      14685672,
+      23010473,
+      22041710,
+      19708762
+    ]
+  },
+  {
+    "question_id": 1914,
+    "question": "What is \"Epitranscriptome analysis\"?",
+    "answer": "Modified nucleotides in messenger RNA (mRNA) have been discovered over 40 years ago, but until recently little was known about which transcripts contain them and what their function is. High-throughput sequencing approaches revealed a dynamic landscape of the 'Epitranscriptome' for many mRNA modifications in various organisms from yeast to humans.\t\t\nThe detection methods of RNA modifications has enabled investigation of a new layer of gene regulation - the epitranscriptome.",
+    "relevant_passage_ids": [
+      27172004,
+      27911721,
+      26501195,
+      25370990,
+      26176336,
+      27808276,
+      26733207
+    ]
+  },
+  {
+    "question_id": 2447,
+    "question": "Mutation of which gene causes arterial tortuosity syndrome?",
+    "answer": "Arterial tortuosity syndrome is an autosomal recessive connective tissue disorder caused by loss-of-function mutations in SLC2A10, which encodes facilitative glucose transporter 10 (GLUT10).",
+    "relevant_passage_ids": [
+      25373504,
+      26376865,
+      28726533,
+      22116938,
+      26398550
+    ]
+  },
+  {
+    "question_id": 668,
+    "question": "What pharmacological and non-pharmacological interventions can be considered as prophylactic therapies in Cluster Headache patients?",
+    "answer": "Verapamil, a calcium channel blocker, is considered the mainstay of prophylactic therapy of Cluster Headache patients. Lithium carbonate, topiramate, valproic acid, gabapentin, baclofen, methysergide, melatonin, ketoprofen and indomethacin can also be tried for prophylactic therapy of Cluster Headaches patients. Non-pharmacological prophylactic measures, such as peripheral (mostly occipital nerve) and central (hypothalamic) neurostimulation, ablative surgery, and botulinum toxin type-A (BTX-A) injection, can be also considered.",
+    "relevant_passage_ids": [
+      17901920,
+      21284609,
+      11026146,
+      15651299,
+      20352587,
+      11252143,
+      16041199,
+      12390644,
+      16628535,
+      2520442
+    ]
+  },
+  {
+    "question_id": 1959,
+    "question": "Are Ultra-conserved elements (UCEs) enriched in segmental duplications?",
+    "answer": "ULEs are located in intergenic or intronic regions and are depleted from segmental duplications. In addition, here we show that these elements are preferentially found in pathogenic deletions (enrichment ratio 3.6 vs. 0.5 in duplications), and that this association is not related with a higher content of genes.",
+    "relevant_passage_ids": [
+      18957701,
+      21092253,
+      24349264,
+      22987666,
+      16998490,
+      25340765
+    ]
+  },
+  {
+    "question_id": 846,
+    "question": "Can bioprinting use human cells?",
+    "answer": "Yes, human cells can be used for bioprinting",
+    "relevant_passage_ids": [
+      24887553,
+      21527813,
+      25130390,
+      23260439,
+      25242654,
+      22394017,
+      24903714,
+      24998183,
+      24758832,
+      25457969,
+      21504055,
+      22436025,
+      24334142,
+      22767299,
+      24695367,
+      23411530,
+      23184715,
+      20546891,
+      25047630,
+      23719889,
+      22508498,
+      24961492,
+      21358040,
+      23380571,
+      24188635,
+      25048797,
+      20353253,
+      23562089,
+      20811115,
+      23575660,
+      25384685,
+      24439284,
+      23015540,
+      25093879,
+      23197691,
+      24157694
+    ]
+  },
+  {
+    "question_id": 3285,
+    "question": "List the attenuated live viruses contained in the Fluzone intradermal quadrivalent vaccine.",
+    "answer": "The Fluzone Intradermal Quadrivalent vaccine contains 9 ug hemagglutinin per strain of the two A-strain viruses and both B-strain lineage viruses (Victoria and Yamagata).",
+    "relevant_passage_ids": [
+      27457797
+    ]
+  },
+  {
+    "question_id": 2347,
+    "question": "Do bacteria from the genus Morexella cause respiratory infections?",
+    "answer": "Bacteria from the genus Morexella can cause respiratory infections",
+    "relevant_passage_ids": [
+      24786571,
+      8007629
+    ]
+  },
+  {
+    "question_id": 3960,
+    "question": "Is avelumab effective for urothelial carcinoma?",
+    "answer": "Yes. Avelumab is an anti-programmed death-ligand 1 monoclonal antibody that is approved for the treatment of urothelial carcinoma.",
+    "relevant_passage_ids": [
+      32945632,
+      29103968,
+      31940998,
+      29217288,
+      32762233,
+      32146152,
+      28375787,
+      30481100,
+      28585615,
+      33037118,
+      31286802,
+      30021426,
+      29540084,
+      30004857,
+      32135514,
+      31553054,
+      31807039
+    ]
+  },
+  {
+    "question_id": 3145,
+    "question": "Can TAD disruption lead to disease?",
+    "answer": "TAD boundaries are insulators of genomic neighborhoods. Τhe disruption of these structures by genomic rearrangements can result in gene misexpression and disease.",
+    "relevant_passage_ids": [
+      26862051,
+      22495304,
+      30374058,
+      29990539,
+      30241613,
+      28408976,
+      27111891,
+      30086749,
+      25959774
+    ]
+  },
+  {
+    "question_id": 1366,
+    "question": "What is known as Von Hippel–Lindau disease or syndrome?",
+    "answer": "von Hippel-Lindau (VHL) disease is a rare, autosomal dominantly inherited multisystem disorder characterized by development of a variety of benign and malignant tumors, which are usually accompanied with cysts. The spectrum of clinical manifestations of the disease is broad and includes retinal and central nervous system hemangioblastomas, endolymphatic sac tumors, renal cysts and tumors, pancreatic cysts and tumors, pheochromocytomas, and epididymal cystadenomas. The most common causes of death in VHL disease patients are renal cell carcinoma and neurologic complications from cerebellar hemangioblastomas. von Hippel-Lindau (VHL) syndrome is associated with mutations of the VHL tumor suppressor gene (3p25-26). Its estimated incidence ranges from 1 in 36,000 to 1 in 53,000 with a penetrance of up to 95% by age 60. The VHL tumour suppressor gene, responsible for the disease, encodes for a major regulator of the hypoxic response by targeting the transcription factor hypoxia inducible factor (HIF) for degradation. Loss of pVHL leads to activation of the HIF pathway in normoxia with the concomitant increase in tumour vascularisation due to the up-regulation of pro-angiogenic genes.In addition, many HIFalpha-independent functions of pVHL have recently been identified. These include microtubule-based processes, extracellular matrix assembly and suppression of kidney cyst formation.",
+    "relevant_passage_ids": [
+      21955200,
+      21204227,
+      22461457,
+      20687511,
+      18203931,
+      11331612,
+      20442526,
+      23384228,
+      20375333,
+      18408496,
+      24292403,
+      20833332,
+      23652669,
+      24138046,
+      21362373,
+      23968328,
+      22659535,
+      18434768,
+      20231120,
+      24900047,
+      18751708,
+      22265326,
+      23843833
+    ]
+  },
+  {
+    "question_id": 3193,
+    "question": "Is the Philadelphia chromosome a fusion between parts of chromosomes 1 and 9?",
+    "answer": "No,\nChronic myeloid leukemia is a stem cell disease with the presence of Philadelphia chromosome generated through reciprocal translocation of chromosome 9 and 22.",
+    "relevant_passage_ids": [
+      29633730,
+      29435292,
+      29046997
+    ]
+  },
+  {
+    "question_id": 3051,
+    "question": "What is the function of Taraxasterol  in rheumatoid arthritis?",
+    "answer": "Taraxasterol suppresses inflammation in rheumatoid arthritis.",
+    "relevant_passage_ids": [
+      27109342,
+      28101182
+    ]
+  },
+  {
+    "question_id": 1756,
+    "question": "Which two drugs are included in the Harvoni pill?",
+    "answer": "Harvoni contains 400 mg sofosbuvir and 90 mg ledipasvir. It used for treatment of hepatitis C virus infection.",
+    "relevant_passage_ids": [
+      26357632,
+      25850880,
+      27193156,
+      25837989,
+      26312999,
+      25859119,
+      26327920,
+      27276081,
+      25516691,
+      25937625,
+      27606041,
+      25987834,
+      26788571,
+      27480956
+    ]
+  },
+  {
+    "question_id": 2244,
+    "question": "Does RNA polymerase II have RNA cleavage activity?",
+    "answer": "In addition to RNA synthesis, multisubunit RNA polymerases (msRNAPs) support enzymatic reactions such as intrinsic transcript cleavage. The eukaryotic transcription factor TFIIS enhances elongation and nascent transcript cleavage activities of RNA polymerase II in a stalled elongation complex.",
+    "relevant_passage_ids": [
+      1379232,
+      21454497,
+      9869639,
+      8312968,
+      7513257,
+      7503982,
+      25764335,
+      1371280,
+      17535246,
+      8798387,
+      8090778,
+      12692127
+    ]
+  },
+  {
+    "question_id": 595,
+    "question": "Which is the genetic cause for the development of Fanconi anemia complementation group D1?",
+    "answer": "Fanconi anemia complementation group D1 (FANCD1) was shown to be induced by biallelic mutations in the BRCA2 breast-cancer-susceptibility gene.",
+    "relevant_passage_ids": [
+      14695169,
+      16920162,
+      18212739,
+      14559878,
+      15695377,
+      15645491,
+      12383764
+    ]
+  },
+  {
+    "question_id": 1435,
+    "question": "What is the idea behind the fractal globule that has been proposed as a model of chromatin conformation in the nucleus of a cell?",
+    "answer": "The fractal globule is a compact polymer state that emerges during polymer condensation as a result of topological constraints which prevent one region of the chain from passing across another one. This long-lived intermediate state was introduced in 1988 (Grosberg et al. 1988) and has not been observed in experiments or simulations until recently (Lieberman-Aiden et al. 2009). Recent characterization of human chromatin using a novel chromosome conformational capture technique brought the fractal globule into the spotlight as a structural model of human chromosome on the scale of up to 10 Mb (Lieberman-Aiden et al. 2009). The fractal globule, a knot-free, polymer conformation that enables maximally dense packing while preserving the ability to easily fold and unfold any genomic locus is distinct from the more commonly used globular equilibrium model and emphasizes topological constraints as a primary factor driving formation of chromosomal territories.",
+    "relevant_passage_ids": [
+      19815776,
+      22988072,
+      22370293,
+      23781815,
+      21274616,
+      20461051
+    ]
+  },
+  {
+    "question_id": 4707,
+    "question": "What is the role of PCAT6 in human cancers?",
+    "answer": "PCAT6, is a carcinogenic lncRNA. It is abnormally elevated in various human malignant tumors. PCAT6 has been found to sponge various miRNAs to activate the signaling pathways, which further affects tumor cell proliferation, migration, invasion, cycle, apoptosis, radioresistance, and chemoresistance. It is believed to have diagnostic and prognostic value and clinical applications in various human malignancies.",
+    "relevant_passage_ids": [
+      34885209,
+      31676070
+    ]
+  },
+  {
+    "question_id": 2059,
+    "question": "What is the enzymatic activity of PARL?",
+    "answer": "the mitochondrial protease presenilin-associated rhomboid-like (PARL). Rhomboids are a recently discovered family of widely distributed intramembrane serine proteases.",
+    "relevant_passage_ids": [
+      21355049,
+      17938163,
+      19859837,
+      21415861
+    ]
+  },
+  {
+    "question_id": 1372,
+    "question": "Does nimotuzumab improve survival of glioblastoma patients?",
+    "answer": "Yes. Nimotuzumab improves survival of adult and pediatric patients diagnosed with glioblastoma and with other high-grade gliomas.",
+    "relevant_passage_ids": [
+      23575267,
+      24571331,
+      21575527,
+      21483304,
+      23754473,
+      23060940,
+      19293809,
+      23782513,
+      21171927,
+      18094616,
+      24521695
+    ]
+  },
+  {
+    "question_id": 4041,
+    "question": "What is Couvelaire Uterus?",
+    "answer": "Couvelaire uterus is hematic infiltration uterine myometrium due to the formation of a massive hematoma. It is charecterised by dark purple patches with ecchymosis and indurations.",
+    "relevant_passage_ids": [
+      28290978,
+      29233830,
+      9313351,
+      9788648,
+      15559411,
+      25102676
+    ]
+  },
+  {
+    "question_id": 3279,
+    "question": "Which is the primary interacting protein of BLK?",
+    "answer": "The B cell adaptor protein with ankyrin repeats (BANK1) and the B lymphoid tyrosine kinase (BLK) have been genetically associated with autoimmunity. The proteins of these genes interact physically and work in concert during B-cell signaling.",
+    "relevant_passage_ids": [
+      18981230,
+      26420661,
+      21978998,
+      23646104,
+      23555801
+    ]
+  },
+  {
+    "question_id": 2272,
+    "question": "What is the origin of XUT transcripts in yeast?",
+    "answer": "XUTs are a class of Xrn1-sensitive antisense regulatory non-coding RNA in yeast",
+    "relevant_passage_ids": [
+      21697827,
+      29114019,
+      26805575
+    ]
+  },
+  {
+    "question_id": 1844,
+    "question": "What is the role of the UBC9 enzyme in the protein sumoylation pathway?",
+    "answer": "The small ubiquitin-like modifier (SUMO) pathway in eukaryotes is an essential post-translational modification required for a variety of cellular processes, development and organelle biogenesis. SUMO-conjugating enzyme (Ubc9) is the sole conjunction enzyme in the SUMO pathway.",
+    "relevant_passage_ids": [
+      25097219,
+      20561671,
+      27142163,
+      20865051,
+      21278366,
+      25637535,
+      21390240,
+      24991007,
+      15087395,
+      18617892,
+      25191977,
+      21518767,
+      19826484,
+      19323834,
+      23187003,
+      26826302,
+      22904261,
+      23708104,
+      21510985,
+      26582473,
+      26889037,
+      27425617,
+      11867732,
+      23628505,
+      25311713,
+      20800867,
+      23381475,
+      23078246,
+      23097446,
+      16862185,
+      22525038,
+      21444718,
+      17698038,
+      15546615
+    ]
+  },
+  {
+    "question_id": 2757,
+    "question": "List intramembrane rhomboid peptidases",
+    "answer": "PARL\nPcp1\nhiGlpG\necGlpG\nYqgP",
+    "relevant_passage_ids": [
+      21455272,
+      22921757,
+      29301859,
+      12417197
+    ]
+  },
+  {
+    "question_id": 466,
+    "question": "What is the role of AMPK kinase in myocardial remodeling after myocardial infarction",
+    "answer": "AMP-activated protein kinase (AMPK) is a key sensor of cellular energy. The activation of AMPK by metformin prevents cardiac remodeling after myocardial infarction (MI). \nAdiponectin protects the heart from ischemia-reperfusion injury through an AMPK-dependent mechanism.\nAMPK activation by metformin and the subsequent suppression of TLRs activity could be considered as a target in protecting the infarcted heart.",
+    "relevant_passage_ids": [
+      23122726,
+      22043210,
+      21572014,
+      22344560,
+      16155579
+    ]
+  },
+  {
+    "question_id": 1924,
+    "question": "Which disease is treated with Nusinersen?",
+    "answer": "Nusinersen us used for treatment of Spinal Muscular Atrophy.",
+    "relevant_passage_ids": [
+      27939059,
+      26823478,
+      26865511
+    ]
+  },
+  {
+    "question_id": 267,
+    "question": "Where is the protein CLIC1 localized?",
+    "answer": "CLIC1 is an intracellular chloride ion channel that is localized both to the nucleus and to the cytolasm.",
+    "relevant_passage_ids": [
+      15827065,
+      9880541,
+      21055175
+    ]
+  },
+  {
+    "question_id": 2679,
+    "question": "What is the TALE-iD method used for?",
+    "answer": "TALE-iD is a methylation-based method for the study of native chromatin structure.",
+    "relevant_passage_ids": [
+      27940490
+    ]
+  },
+  {
+    "question_id": 3485,
+    "question": "What is the protein product of the gene GBA2?",
+    "answer": "The GBA2 gene encodes the non-lysosomal glucosylceramidase (NLGase), an enzyme that catalyzes the conversion of glucosylceramide (GlcCer) to ceramide and glucose.",
+    "relevant_passage_ids": [
+      29524657,
+      30308956,
+      29234271
+    ]
+  },
+  {
+    "question_id": 2251,
+    "question": "What is measured through the NOMe-Seq methodology?",
+    "answer": "We have developed a method (NOMe-seq) that uses a GpC methyltransferase (M.CviPI) and next generation sequencing to generate a high resolution footprint of nucleosome positioning genome-wide using less than 1 million cells while retaining endogenous DNA methylation information from the same DNA strand. DNaseI-seq and NOMe-seq.",
+    "relevant_passage_ids": [
+      22479200,
+      25530820,
+      27899623,
+      28222791,
+      28413449,
+      21835883,
+      24916973,
+      25747664,
+      28653622,
+      22960375,
+      28035030,
+      26484155
+    ]
+  },
+  {
+    "question_id": 551,
+    "question": "Which receptors are bound by Tasimelteon?",
+    "answer": "Tasimelteon (HETLIOZ™) is an orally bioavailable agonist of the melatonin MT1 and MT2 receptors that has been approved in the US for the treatment of non-24-hour sleep-wake disorder.",
+    "relevant_passage_ids": [
+      19579175,
+      25423562,
+      24228714,
+      24610704,
+      25207602,
+      25422900,
+      25534555,
+      20945020
+    ]
+  },
+  {
+    "question_id": 1768,
+    "question": "Is there a role of regorafenib for sarcoma treatment?",
+    "answer": "Yes, there is evidence to suggest that regorafenib can be effective for sarcoma treatment. Clinical trials are under-way.",
+    "relevant_passage_ids": [
+      26266019,
+      27751846,
+      24266804,
+      25301268,
+      24756792,
+      25884155,
+      26907871
+    ]
+  },
+  {
+    "question_id": 2672,
+    "question": "What is the aim of the PhenCode database?",
+    "answer": "PhenCode (Phenotypes for ENCODE; http://www.bx.psu.edu/phencode) is a collaborative, exploratory project to help understand phenotypes of human mutations in the context of sequence and functional data from genome projects.",
+    "relevant_passage_ids": [
+      25385275,
+      17326095
+    ]
+  },
+  {
+    "question_id": 1781,
+    "question": "What molecule is targeted by Avelumab?",
+    "answer": "Avelumab is a monoclonal antibody that binds programmed death-ligand 1 (PD-L1).",
+    "relevant_passage_ids": [
+      27172898,
+      27350882,
+      27592805,
+      26921031,
+      27815822,
+      27716622,
+      26014098,
+      27490642,
+      27196116,
+      27544053,
+      26880697,
+      26477470
+    ]
+  },
+  {
+    "question_id": 4378,
+    "question": "Which syndromes are caused by LAMA1 mutations?",
+    "answer": "Poretti-Boltshauser and Joubert syndromes",
+    "relevant_passage_ids": [
+      34249907,
+      34423300
+    ]
+  },
+  {
+    "question_id": 3439,
+    "question": "How long in bp is the human pseudoautosomal region 2 (PAR2)?",
+    "answer": "The human pseudoautosomal region 2 (PAR2), which is located in the long arm of chromosome 9 (LTR6B) and consists of 32 exons, is320-kb long.",
+    "relevant_passage_ids": [
+      12566406,
+      2847916,
+      18660847,
+      25375121,
+      2885758
+    ]
+  },
+  {
+    "question_id": 4009,
+    "question": "Why are male calico cats rare?",
+    "answer": "The tortoiseshell coat color is characteristic to female cats, and its occurrence in tomcats is very rare and associated with the presence of an additional copy of X chromosome.",
+    "relevant_passage_ids": [
+      1163864,
+      32574385,
+      13776765
+    ]
+  },
+  {
+    "question_id": 1199,
+    "question": "What is the disorder in which mutations in U4atac snRNA are detected?",
+    "answer": "Mutations in U4atac snRNA are thought to be the cause of Microcephalic Osteodysplastic Primordial Dwarfism type I (MOPDI), a recessive form of developmental disorder.",
+    "relevant_passage_ids": [
+      21990275,
+      21474760,
+      24865609,
+      21474761,
+      21815888
+    ]
+  },
+  {
+    "question_id": 2225,
+    "question": "Which proteins control the degradation of cryptic unstable transcripts (CUTs) in yeast?",
+    "answer": "Termination of cryptic unstable transcripts is directed by yeast RNA-binding proteins Nrd1 and Nab3. These cryptic unstable transcripts (CUTs) are rapidly degraded by the nuclear exosome. Key substrates for exosomal degradation include aberrant functional RNAs and cryptic unstable transcripts (CUTs). Yeast RNA binding proteins Nrd1 and Nab3 direct termination of sn/snoRNAs and recently have also been implicated in premature transcription termination of the NRD1 gene. These results suggest that transcription termination of CUTs directed by Nrd1 and Nab3 is a prerequisite for rapid degradation by the nuclear exosome. ",
+    "relevant_passage_ids": [
+      19169244,
+      25680078,
+      25989903,
+      25210768,
+      21826286,
+      19854134,
+      24106327,
+      21878619,
+      16973436,
+      27492286
+    ]
+  },
+  {
+    "question_id": 2074,
+    "question": "What is the Genome 10K Project?",
+    "answer": "The Genome 10K Project was established in 2009 by a consortium of biologists and genome scientists determined to facilitate the sequencing and analysis of the complete genomes of 10,000 vertebrate species.",
+    "relevant_passage_ids": [
+      22897955,
+      25689317
+    ]
+  },
+  {
+    "question_id": 2208,
+    "question": "List 3 features of IRVAN syndrome.",
+    "answer": "Idiopathic retinal vasculitis, aneurysms, and neuroretinitis is coined as IRVAN syndrome.",
+    "relevant_passage_ids": [
+      22454754,
+      25390402,
+      25802506,
+      27239579,
+      24766157,
+      27491854,
+      12504719,
+      21563921,
+      25383801,
+      24269400,
+      15348989,
+      24221466,
+      26922651,
+      9121757
+    ]
+  },
+  {
+    "question_id": 3730,
+    "question": "Describe Brain Radiation Information Data Exchange (BRIDE) approach",
+    "answer": "BRIDE (Brain Radiation Information Data Exchange) is a data integration platform that acts as a knowledge broker for LDIR researchers to facilitate molecular research on the systems biology of LDIR response in mammals. Its flexible design can capture a range of experimental information for genomics, epigenomics, transcriptomics, and proteomics.",
+    "relevant_passage_ids": [
+      27170263
+    ]
+  },
+  {
+    "question_id": 3469,
+    "question": "What is Fuchs' Uveitis?",
+    "answer": " Fuchs' Uveitis (FU) is a chronic, low-grade-inflammatory disorder, involving anterior uvea and vitreous. Fuchs uveitis (FU) is a frequent, chronic course of intraocular inflammation, which is associated with a gradual onset of decreased visual acuity.",
+    "relevant_passage_ids": [
+      29944680,
+      15947963,
+      28424877
+    ]
+  },
+  {
+    "question_id": 3115,
+    "question": "Is lactotransferrin a tumour suppressor?",
+    "answer": "Lactotransferrin (LTF) has been confirmed to act as a tumor suppressor in multiple cancers.",
+    "relevant_passage_ids": [
+      18697201,
+      25370482,
+      26137081,
+      23069661,
+      23479198
+    ]
+  },
+  {
+    "question_id": 1841,
+    "question": "What is the composition of the gamma-secretase complex?",
+    "answer": "Gamma-secretase is a multisubunit enzyme complex which is consists of four proteins: presenilin 1 (PS1) or presenilin 2 (PS2), nicastrin, Aph-1 and Pen-2.",
+    "relevant_passage_ids": [
+      15766275,
+      15591316,
+      16539675,
+      12821663,
+      24338474,
+      16135086,
+      14724271,
+      12805296,
+      24413617,
+      20534834,
+      17276981,
+      20299451,
+      20178366,
+      18650432,
+      18359496,
+      24723404,
+      11867728,
+      17560791,
+      15322084,
+      16249316,
+      14602727,
+      12684521,
+      12644463,
+      27059953,
+      12834808,
+      20130175
+    ]
+  },
+  {
+    "question_id": 1161,
+    "question": "How does ranolazine affect kinase signaling activation in the heart?",
+    "answer": "Ranolazine inhibits Ca(2+)/calmodulin kinase II (CaMKII) activity",
+    "relevant_passage_ids": [
+      23271797,
+      21677263
+    ]
+  },
+  {
+    "question_id": 4479,
+    "question": "What is MACE in the context of cardiotoxicity?",
+    "answer": "MACE is an acronym for Major Adverse Cardiovascular Events.",
+    "relevant_passage_ids": [
+      34396256,
+      32493217,
+      19589442,
+      27451136,
+      28544100,
+      31399624,
+      30626381,
+      33766256,
+      34396181,
+      34075158,
+      25212799,
+      32947416,
+      12076217,
+      26071994,
+      33966333,
+      25075166,
+      34533592
+    ]
+  },
+  {
+    "question_id": 4324,
+    "question": "Which CD38 antibody has been shown to be effective for Lupus Erythematosus?",
+    "answer": "Daratumumab, a human monoclonal antibody that targets CD38, has been used to treat Lupus Erythematosus.",
+    "relevant_passage_ids": [
+      29720240,
+      33828555,
+      32937047
+    ]
+  },
+  {
+    "question_id": 763,
+    "question": "Which genes are regulated by TRalpha2  in the heart?",
+    "answer": "ARB1, ARB2, TAK1, p38, TRalpha1",
+    "relevant_passage_ids": [
+      18031713,
+      15831522,
+      11731613
+    ]
+  },
+  {
+    "question_id": 393,
+    "question": "Is there an association between bruxism and reflux?",
+    "answer": "Yes, bruxism is associated with reflux. Sleep bruxism is prevalent in GERD patients.",
+    "relevant_passage_ids": [
+      19089153,
+      22156738,
+      841409,
+      21248360,
+      23738993,
+      22926484,
+      14655925,
+      15520695,
+      24011800,
+      19830044
+    ]
+  },
+  {
+    "question_id": 919,
+    "question": "Which are the mutational hotspots of the human KRAS oncogene?",
+    "answer": "The KRAS oncogene has four main mutational hotspots located at codons 12, 13, 61 and 146.",
+    "relevant_passage_ids": [
+      21266528,
+      23536897,
+      10768832,
+      23074403,
+      11403720,
+      16434186,
+      17638058,
+      21199003,
+      14534542,
+      12941809,
+      12650907,
+      16458330,
+      19430299,
+      22006429
+    ]
+  },
+  {
+    "question_id": 1283,
+    "question": "Is factor XI deficient in Hemophilia C?",
+    "answer": "Factor XI deficiency is associated with a bleeding tendency called Hemophilia C.",
+    "relevant_passage_ids": [
+      1546275,
+      8277060,
+      18378181,
+      18160615,
+      20485963
+    ]
+  },
+  {
+    "question_id": 1344,
+    "question": "Which genes were found to be methylated in bladder cancer cells?",
+    "answer": "In bladder cancer, hepaCAM (hepatocyte cell adhesion molecule), RARβ(2), APC, TPEF (transmembrane protein containing epidermal growth factor and follistatin domain), RASSF1A, p14(ARF) and p16 genes were found to be methylated. These methylation events were demostrated to associate with downregulation of gene expression.",
+    "relevant_passage_ids": [
+      9515812,
+      15041703,
+      24324362,
+      20628239,
+      21680534,
+      16207479
+    ]
+  },
+  {
+    "question_id": 3675,
+    "question": "Which are the databases for intrinsic protein disorders?",
+    "answer": "Intrinsic disorder (ID), i.e. the lack of a unique folded conformation at physiological conditions, is a common feature for many proteins, which requires specialized biochemical experiments that are not high-throughput. DisProt and MobiDB are databases for intrinsic protein disorders.",
+    "relevant_passage_ids": [
+      28968848,
+      22661649,
+      29136219,
+      23815411
+    ]
+  }
+]

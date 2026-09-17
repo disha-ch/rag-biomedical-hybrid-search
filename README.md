@@ -1,135 +1,145 @@
 # Biomedical Hybrid Search
 
-A neutral starter repository for the biomedical hybrid search exercise built around `rag-datasets/rag-mini-bioasq`.
-
-## First milestone
-
-Start by understanding and validating the dataset before implementing retrieval.
-
-The first milestone is to:
-1. load the dataset,
-2. inspect questions, answers, passage IDs, relevant passage IDs, and corpus passages,
-3. verify the relationships between questions and passages,
-4. record basic dataset statistics,
-5. define a stable internal schema that all retrieval methods can share.
-
-This avoids coupling later BM25, dense, hybrid, query-expansion, UI, and evaluation code to assumptions about the raw dataset format.
-
-## Planned project stages
-
-1. Dataset inspection and normalization
-2. Lexical retrieval
-3. Dense retrieval
-4. Hybrid retrieval
-5. Query expansion
-6. Grounded answer generation with citations
-7. Search UI
-8. Fixed 100-query offline evaluation
-9. Retrieval + answer evaluation
-10. System design and experiment report
-
-## Repository structure
-
-```text
-biomedical-hybrid-search/
-├── data/
-│   ├── raw/            # optional local/raw exports (gitignored)
-│   ├── processed/      # normalized local data (gitignored)
-│   └── eval/           # fixed evaluation query set
-├── docs/               # design notes / architecture
-├── artifacts/          # experiment outputs (gitignored)
-├── scripts/
-│   └── inspect_dataset.py
-├── src/
-│   ├── data/
-│   ├── retrieval/
-│   ├── generation/
-│   ├── evaluation/
-│   └── ui/
-├── tests/
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+Biomedical evidence search over `rag-datasets/rag-mini-bioasq`, with lexical,
+semantic, hybrid, and query-expanded retrieval, a Streamlit UI, grounded
+answers, and a fixed 100-query retrieval evaluation.
 
 ## Setup
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\\Scripts\\activate
+source .venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env
+# Set OPENAI_API_KEY in .env for query expansion and answers.
+export HF_HOME="$PWD/data/raw/huggingface"
 ```
 
-## First command
+`OPENAI_MODEL` defaults to `gpt-4.1-mini`. Never commit credentials. Dataset and
+embedding-model downloads happen on first use. Once cached, `HF_HUB_OFFLINE=1`
+lets Hugging Face loading work offline; OpenAI features still require network
+access and a key.
+
+## Run
 
 ```bash
+streamlit run app.py
 python scripts/inspect_dataset.py
-```
-
-The inspection script is intentionally minimal. Update the dataset configuration only after confirming the exact Hugging Face dataset structure.
-
-## Lexical retrieval (BM25)
-
-Install `requirements.txt`, then run three sample queries against the normalized
-valid corpus:
-
-```bash
-python scripts/search_bm25.py
-python scripts/search_bm25.py --query "EGFR signaling ligands" --top-k 3
+python scripts/search.py --mode lexical --query "EGFR signaling ligands"
+python scripts/search.py --mode dense
+python scripts/search.py --mode hybrid --top-k 5
+python scripts/search.py --mode expanded --query "What genes are associated with Hirschsprung disease?" --answer
 python -m unittest discover -s tests -v
 ```
 
-The script loads only the `text-corpus` config and normalizes it in memory.
-If using the existing project-local cache, set
-`HF_HOME="$PWD/data/raw/huggingface"`; add `HF_HUB_OFFLINE=1` to use it offline.
+The single demo script replaces the four former search scripts. Without
+`--query`, it runs the same three biomedical examples. `--query` is repeatable;
+`--answer` optionally generates a grounded answer from up to five results.
 
-`src.retrieval.bm25.BM25Retriever(normalized_passages)` indexes only rows whose
-`is_valid` is `True`. Its `search(query: str, top_k: int)` returns dictionaries
-with exactly `passage_id`, `score`, `rank`, and `text`. Original IDs and text are
-preserved, including duplicate text under different IDs. Ranks start at 1.
+## Repository
 
-Scoring uses `rank-bm25==0.2.2`'s `BM25Okapi` with `k1=1.5`, `b=0.75`, and
-`epsilon=0.25`. Both passage and query tokenization lowercase Unicode text and
-extract runs of letters/digits; punctuation, hyphens, and underscores separate
-tokens. There is no stemming or stopword removal.
-
-Results are sorted by descending score, with corpus order breaking ties.
-`top_k=0`, empty/whitespace/punctuation-only queries, and an empty vocabulary
-return no results. Negative `top_k` is rejected; values larger than the corpus
-return all indexed rows. No score threshold is applied: zero or negative scores
-can be returned, and an unknown-term query returns zero-score rows in corpus
-order. BM25 scores are not confidence probabilities.
-
-The index is rebuilt in memory each run and scores the corpus for each query.
-This is a simple lexical baseline, without retrieval-quality evaluation.
-
-## Dense retrieval
-
-```bash
-python scripts/search_dense.py
-python -m unittest discover -s tests -v
+```text
+src/
+  data/                 # normalization
+  retrieval/            # BM25, dense, hybrid, expansion
+  generation/           # grounded answer + citation checks
+  evaluation/           # plain retrieval metric functions
+tests/
+scripts/
+  inspect_dataset.py
+  search.py
+  create_eval_set.py
+  evaluate_retrieval.py
+data/
+  raw/                  # ignored Hugging Face cache
+  processed/            # reserved for local exports
+  eval/
+    queries_100.json     # fixed, shared question records
+    results/            # per-mode details and summary JSON
+docs/                   # schema and implementation notes
+artifacts/              # reserved for local artifacts
+app.py
+requirements.txt
+.env.example
 ```
 
-`src.retrieval.dense.DenseRetriever(normalized_passages)` uses
-`sentence-transformers/all-MiniLM-L6-v2` to encode every valid passage once,
-in batches of 32. Each `search(query, top_k)` encodes only the query and computes
-a NumPy matrix-vector product against the stored L2-normalized passage vectors.
-The query is also L2-normalized, so the scores are cosine similarities.
+## Retrieval and answers
 
-Results have exactly `passage_id`, `score`, `rank`, and `text`, sorted by descending
-similarity with corpus-order ties. Original IDs, text, and duplicate-text rows
-are retained. Empty/whitespace queries, an empty valid corpus, or `top_k=0`
-return `[]`. Negative `top_k` is rejected; oversized values return all valid rows.
+Normalization preserves original question/passage IDs, relevance lists, row
+order, and duplicate-text rows. Only valid passages are indexed: 27,977 of
+40,221 in the inspected snapshot. See `docs/data-schema.md` for validity rules.
 
-The first run downloads the model; subsequent runs can use the Hugging Face
-cache. Use the same `HF_HOME` as above for the existing dataset cache. Embeddings
-stay in memory and are rebuilt for each retriever instance. There is no vector
-database, score threshold, or quality evaluation. The general-purpose model
-produces 384-dimensional embeddings and truncates text beyond 256 wordpieces;
-long passages are not chunked. Full original text is still returned. Unit tests
-use fixed mocked embeddings; the sample script runs the actual model.
+- **Lexical:** `rank-bm25`'s `BM25Okapi`, k1=1.5, b=0.75, epsilon=0.25.
+  Lowercase Unicode letters/digits; punctuation separates tokens. No stemming
+  or stopword removal.
+- **Dense:** `sentence-transformers/all-MiniLM-L6-v2`, 384-dimensional vectors.
+  Cosine similarity is the dot product of L2-normalized vectors. Text beyond
+  256 wordpieces is truncated for embedding; full original text is returned.
+- **Hybrid:** RRF sums `1 / (60 + rank)` over BM25 and dense candidates.
+- **Hybrid + Query Expansion:** one structured OpenAI call generates exactly
+  two distinct alternate queries; the original is retained verbatim. Hybrid
+  runs on all three, then a second RRF merges their results.
 
-## Design principle
+All searches return `passage_id`, `score`, `rank`, and `text`, ordered by score.
+Ranks start at 1. Ties use corpus order for BM25/dense and passage ID for RRF.
+Empty/whitespace queries or top_k=0 return no results; negative top_k is rejected.
+No score threshold is applied. Candidate depth equals the requested top_k.
 
-Keep one common passage representation and one common retrieval result format across lexical, dense, and hybrid search. This makes the required offline comparison reproducible and fair.
+Streamlit lazily caches retrievers in memory; the first dense search can take
+several minutes. It shows original/expanded queries, evidence, a plain search
+record, and an answer with inline `[passage_id]` citations. Source URLs are not
+provided by the dataset, and the UI does not invent them.
+
+Answer generation sends only the original question and selected context
+(default five passages), with an evidence-only prompt and temperature 0.
+Unusable context or `INSUFFICIENT_EVIDENCE` displays
+`Insufficient evidence in the retrieved passages.` Missing or out-of-context
+citations reject the answer. ID membership does not prove factual support;
+prompting and temperature 0 cannot guarantee grounding or identical outputs.
+API errors keep evidence visible and are not treated as insufficient evidence.
+
+## Fixed 100-query evaluation
+
+```bash
+python scripts/create_eval_set.py
+python scripts/evaluate_retrieval.py
+# Optional rerun of one configuration, still using the exact same query file:
+python scripts/evaluate_retrieval.py --modes expanded
+```
+
+Creation uses BioASQ revision `224a87f64a5c3a720b5bc627cf760f543b2f1e79`.
+Questions with at least one valid relevant passage are sorted by original ID;
+`random.Random(42).sample(..., 100)` selects the fixed set. Each saved row contains
+`question_id`, `question`, `answer`, and the full original `relevant_passage_ids`.
+An existing file is validated and reused without rewriting or resampling.
+Evaluation requires this saved file and never generates another set.
+
+Every mode retrieves ten candidates/results per query. The original relevance
+lists are the ground truth, **including IDs with invalid passage text**. Such
+passages cannot be retrieved, so perfect recall/nDCG may be unattainable.
+This preserves the supplied labels instead of silently making the task easier.
+With binary relevance and one credit per passage ID:
+
+- **Recall@k:** number of distinct relevant IDs in the first k results / total
+  distinct relevant IDs (k=5 and 10).
+- **MRR@10:** reciprocal rank of the first relevant result within ten, or zero.
+- **nDCG@10:** sum of `relevance / log2(rank + 1)` through rank ten, divided by
+  the ideal sum for `min(10, number of relevant IDs)` relevant results.
+
+Metrics are averaged equally over all 100 questions. Each mode's JSON records
+query IDs, ranked retrieved IDs, scores, ranks, all four metrics, search latency,
+and expansion usage. Metadata includes the fixed-file SHA-256 and dataset
+revision. Latency includes query embedding/expansion where applicable, but
+excludes loading and index construction; setup and total runtime are separate.
+Indexes are built once and reused across modes. Partial/failed modes retain
+per-query errors and do not report a misleading complete-set metric mean.
+
+Without `OPENAI_API_KEY`, expanded hybrid is explicitly skipped; no mock
+expansions are used in evaluation. Non-LLM retrieval has $0 external API cost
+(local compute is not priced). Expanded hybrid records attempted call count
+and response token usage when available. Its dollar cost is `null`/unknown;
+no pricing estimate is invented. Results are saved under `data/eval/results/`;
+rerunning a mode replaces its JSON, and `summary.json` describes that invocation.
+
+Tests use mocks only for unit/UI checks. LLM-judge evaluation, the final report,
+and the system-design diagram are not implemented yet.
