@@ -1,2 +1,4 @@
 datasets
 pandas
+rank-bm25==0.2.2
+sentence-transformers
