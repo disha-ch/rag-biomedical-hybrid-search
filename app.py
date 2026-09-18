@@ -1,6 +1,5 @@
 """Small Streamlit interface for biomedical retrieval and evidence-based answers."""
 
-import os
 from pathlib import Path
 
 import streamlit as st
@@ -63,15 +62,13 @@ def main():
             st.session_state.pop(key, None)
         if not query.strip():
             st.warning("Enter a biomedical question.")
-        elif mode == "Hybrid + Query Expansion" and not os.getenv("OPENAI_API_KEY"):
-            st.error("Set OPENAI_API_KEY in your environment or .env to use query expansion.")
         else:
             try:
                 with st.spinner("Retrieving evidence…"):
                     st.session_state.record = run_search(query, mode, top_k)
                 st.session_state.context_k = context_k
             except Exception as error:
-                st.error(f"Search failed ({type(error).__name__}). Check dataset/model access and API setup, then retry.")
+                st.error(f"Search failed ({type(error).__name__}). Check dataset/model access and local Ollama, then retry.")
             if "record" in st.session_state:
                 try:
                     with st.spinner("Writing an answer from the retrieved evidence…"):
@@ -80,7 +77,7 @@ def main():
                 except Exception as error:
                     st.session_state.answer_error = (
                         f"Answer generation unavailable ({type(error).__name__}). "
-                        "Check OPENAI_API_KEY and OPENAI_MODEL, then retry. Retrieved evidence is shown below."
+                        "Check the local Ollama service and OLLAMA_MODEL, then retry. Retrieved evidence is shown below."
                     )
 
     record = st.session_state.get("record")

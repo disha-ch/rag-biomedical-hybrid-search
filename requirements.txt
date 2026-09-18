@@ -1,6 +1,5 @@
 datasets
 rank-bm25==0.2.2
 sentence-transformers
-openai
 streamlit
 python-dotenv
